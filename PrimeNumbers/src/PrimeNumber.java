@@ -1,0 +1,39 @@
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		https://javarevisited.blogspot.com/2012/04/java-program-to-print-prime-numbers-in.html
+
+		int num=100;
+		int count=0;
+
+		for(int i=2;i<=num;i++){
+
+		count=0; 
+
+		for(int j=2;j<=i/2;j++){
+
+		if(i%j==0)
+		{
+		count++;
+		break;
+		}
+
+		}
+
+		if(count==0)
+		{
+
+		System.out.println(i);
+
+		}
+
+		}
+
+		}
+		
+	}
+
+
