@@ -27,8 +27,7 @@ public class SumToN {
 				isValid = true;
 			}
 		}
-		
-				
+			
 		for (int i = 1; i <= inputNumber ; i++) {	
 			
 			sum = sum + i;
